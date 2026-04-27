@@ -97,21 +97,21 @@ main {
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-bottom: 2px solid #787236;
 }
-main p:first-child {
+main h1 p:first-child {
     text-align: center;
     font-size: 42px;
     font-style: italic;
     margin-bottom: 16px;
 }
 
-main p:nth-child(2) {
+main h1 p:nth-child(2) {
     text-align: center;
     font-size: 26px;
     font-style: italic;
     color: #1b2227;
     padding-bottom: 40px;
 }
-main p:nth-child(3) {
+main h1 p:nth-child(3) {
     text-align: center;
     font-size: 22px;
     font-style: italic;
@@ -120,7 +120,7 @@ main p:nth-child(3) {
     padding-bottom: 10px;
     line-height: 1.6;
 }
-main p:last-child {
+main h1 p:last-child {
     text-align: center;
     font-size: 22px;
     font-style: italic;
@@ -128,13 +128,80 @@ main p:last-child {
     margin: 0px 100px;
     line-height: 1.6;
 }
+main div {
+    margin: 80px auto 40px auto;
+}
+video {
+    display: block;
+    margin: 80px auto;
+    width: 50%;
+    height: 500px;
+    border: 2px solid #787236;
+    background-color: #e8e0d0;
+}
+.videodiv {
+    margin: auto;
+    width: 90%;
+    border-bottom: 2px solid #787236;
+}
 h1 {
-    padding-bottom: 40px;
+    padding-bottom: 80px;
     border-bottom: 2px solid #787236;
 }
 h4 {
     margin-left: 100px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.links {
+    background-color: #e8e0d0;
+    border: 1px solid #787236;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.10);
+    padding: 40px;
+    width: 60%;
+    align-content: center;
+    justify-items: center;
+}
+.links p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.links p::first-letter {
+    font-size: 1.3em;
+}
+.links a {
+    font-style: italic;
+    color: #1b2227;
+}
+.shoptable {
+    width: 80%;
+    margin: 40px auto;
+    border-collapse: collapse;
+}
+
+.shoptable th {
+    border-bottom: 2px solid #787236;
+    padding: 10px;
+    text-align: left;
+}
+
+.shoptable td {
+    padding: 16px;
+    border-bottom: 1px solid #c4b07a;
+    vertical-align: top;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.shoptable .category td {
+    font-weight: bold;
+    background-color: #e8e0d0;
+    font-size: 1.2em;
+    padding: 8px 16px;
+}
+
+.shoptable img {
+    width: 240px;
+    display: block;
 }
 form{
     display: flex;
